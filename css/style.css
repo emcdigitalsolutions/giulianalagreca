@@ -1224,6 +1224,33 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent-gold);
 }
 
+/* --- WhatsApp Button --- */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 56px;
+    height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.8rem;
+    z-index: 9998;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    transition: all var(--transition);
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    background: #20ba5a;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
 /* --- Cookie Banner --- */
 .cookie-banner {
     position: fixed;
