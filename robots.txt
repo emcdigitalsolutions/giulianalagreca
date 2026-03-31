@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://enrix84.github.io/giulianalagreca/sitemap.xml
+Sitemap: https://www.agenziafunebregiulianalagreca.it/sitemap.xml
