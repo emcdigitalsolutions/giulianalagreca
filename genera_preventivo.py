@@ -117,7 +117,7 @@ run.font.color.rgb = RGBColor(0x88, 0x88, 0x88)
 
 p = doc.add_paragraph()
 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = p.add_run("www.enricomariacaruso.it")
+run = p.add_run("www.emcdigitalsolutions.it")
 run.font.size = Pt(10)
 run.font.color.rgb = RGBColor(0xC9, 0xA8, 0x4C)
 
@@ -564,7 +564,7 @@ doc.add_paragraph()
 add_bold_paragraph("Enrico Maria Caruso")
 add_bold_paragraph("Full Stack Developer & Web Designer Freelance")
 doc.add_paragraph()
-add_bold_paragraph("Sito web: ", "www.enricomariacaruso.it")
+add_bold_paragraph("Sito web: ", "www.emcdigitalsolutions.it")
 doc.add_paragraph()
 
 p = doc.add_paragraph()
